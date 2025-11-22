@@ -46,6 +46,7 @@ const projects = [
 const certificates = [
   { title: "User Experience Design Fundamentals", issuer: "IBM", year: "Nov 2024" },
   { title: "Foundations of User Experience (UX) Design", issuer: "Google", year: "Mar 2024" },
+  { title: "Database Structures and Management with MySQL", issuer: "Meta", year: "Des 2023" },
 ];
 
 // RENDER PROJECTS (COMPACT & CLEAN)
