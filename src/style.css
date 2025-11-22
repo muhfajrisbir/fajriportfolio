@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+/* Font Pixel khusus untuk aksen */
+.font-pixel { font-family: 'Silkscreen', monospace; letter-spacing: -0.5px; }
+
+/* Background Grid Halus (Tech Vibe) */
+.bg-tech-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.03) 1px, transparent 1px);
+}
+
+/* Shadow Pixel Halus (Clean) */
+.shadow-pixel {
+  box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.15);
+}
+.shadow-pixel-hover:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px 0px rgba(37, 99, 235, 0.8); /* Biru saat hover */
+}
+
+/* Animasi Floating Santai */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float { animation: float 5s ease-in-out infinite; }

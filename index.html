@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fajri | Product Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#FAFAFA] text-slate-900 bg-tech-grid antialiased selection:bg-slate-900 selection:text-white">
+
+  <nav class="fixed top-0 w-full z-50 border-b border-slate-200 bg-white/80 backdrop-blur-md">
+      <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+          <a href="#" class="font-pixel text-lg font-bold tracking-tight">fajri_</a>
+          
+          <div class="flex gap-6 text-sm font-medium text-slate-500">
+              <a href="#work" class="hover:text-slate-900 transition">Work</a>
+              <a href="#about" class="hover:text-slate-900 transition">About</a>
+          </div>
+
+          <a href="#" class="hidden sm:flex items-center gap-2 px-4 py-2 text-xs font-bold bg-white border border-slate-300 rounded shadow-pixel hover:bg-slate-50 transition">
+              <div class="w-2 h-2 bg-green-500 animate-pulse rounded-full"></div>
+              AVAILABLE
+          </a>
+      </div>
+  </nav>
+
+  <div id="app">
+    
+    <section class="relative pt-40 pb-20 px-6 flex flex-col items-center text-center overflow-hidden">
+        
+        <span class="font-pixel text-[10px] text-slate-400 mb-4 uppercase tracking-widest">/// UI Designer based in Indonesia</span>
+        
+        <h1 class="relative z-10 text-5xl md:text-7xl font-bold text-slate-900 tracking-tight leading-[1.1] mb-6 max-w-3xl">
+            Crafting logic into <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-slate-400">pixel-perfect</span> UI.
+        </h1>
+        
+        <p class="relative z-10 text-slate-600 max-w-lg mx-auto mb-10 text-lg leading-relaxed">
+            Hi, I'm <strong>Fajri</strong>. I design digital products that look clean and work smoothly.
+        </p>
+
+        <div class="relative z-10 flex gap-4">
+            <a href="#work" class="px-6 py-3 bg-slate-900 text-white text-sm font-bold rounded shadow-pixel shadow-slate-400 hover:translate-y-px hover:shadow-none transition-all">
+                View Projects
+            </a>
+            <a href="#" class="px-6 py-3 bg-white text-slate-900 border border-slate-300 text-sm font-bold rounded shadow-pixel hover:bg-slate-50 transition-all">
+                Download CV
+            </a>
+        </div>
+
+        <div class="hidden lg:block absolute top-1/3 left-[15%] animate-float opacity-40 grayscale hover:grayscale-0 transition duration-500">
+             <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-blue-600">
+                <rect x="2" y="2" width="20" height="20" rx="4" stroke-width="2"/> <rect x="7" y="8" width="2" height="2" fill="currentColor"/> <rect x="15" y="8" width="2" height="2" fill="currentColor"/> <path d="M7 14H17" stroke="currentColor" stroke-width="2" stroke-linecap="square"/> </svg>
+        </div>
+
+        <div class="hidden lg:block absolute bottom-1/4 right-[15%] animate-float opacity-40 grayscale hover:grayscale-0 transition duration-500" style="animation-delay: 1s;">
+            <svg width="56" height="56" viewBox="0 0 24 24" fill="currentColor" class="text-slate-900">
+                <path d="M5 3V19L9 15L12 21L14 20L11 14L17 14L5 3Z" /> </svg>
+        </div>
+
+    </section>
+
+    <section id="work" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex items-baseline justify-between mb-10 border-b border-slate-200 pb-4">
+                <h2 class="text-2xl font-bold text-slate-900">Selected Works</h2>
+                <span class="font-pixel text-xs text-slate-400">SCROLL_DOWN_FOR_MORE</span>
+            </div>
+            
+            <div id="project-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                </div>
+        </div>
+    </section>
+    
+    <section id="about" class="py-20 px-6 bg-white border-t border-slate-200">
+        <div class="max-w-4xl mx-auto">
+             <h2 class="text-2xl font-bold text-slate-900 mb-8">Credentials</h2>
+             <div id="cert-list" class="space-y-3">
+                 </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center border-t border-slate-100 bg-[#FAFAFA]">
+        <p class="font-pixel text-[10px] text-slate-400">© 2025 FAJRI. BUILT WITH CODE.</p>
+    </footer>
+
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
